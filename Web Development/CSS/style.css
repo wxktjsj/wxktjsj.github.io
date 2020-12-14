@@ -1,0 +1,118 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	width:1200px;
+	margin:auto;
+}
+
+/* Header Styles */
+#header {
+	margin:10px;
+	height:150px;
+	border:2px solid #ddd;
+	background-color: #eee;
+	overflow:auto;
+}
+#header-text {
+	padding:40px;
+	font-size:1.2em;
+}
+#header h1 {
+	font-family:'Calisto MT',sans-serif;
+}
+#header p {
+	color:#888;
+}
+#banner {
+	float:right;
+	margin:0;
+	padding:0;
+	height:150px;
+	width:600px;
+}
+
+/* Nav Styles */
+#nav,#roomnav {
+	height:50px;
+	background-color:#eee;
+	border:2px solid #ddd;
+	margin:10px;
+	margin-top:0;
+}
+.navigation {
+	list-style-type:none;
+}
+.navigation li {
+	float:left;
+	display:block;
+	padding:15px 50px;
+	font-size:1.2em;
+	color:black;
+}
+.navigation li a {
+	color:black;
+	text-decoration:none;
+}
+.navigation li a:hover {
+	color:#888;
+	text-decoration:underline;
+}
+
+/* Main Styles */
+#body {
+	background-color:#eee;
+	border:2px solid #ddd;
+	margin:10px;
+	padding:10px;
+	margin-top:0;
+	overflow:auto;
+}
+
+
+/* Home Page Styles */
+#body h1 {
+	text-decoration: underline;
+}
+#body h1, #body p {
+	padding:5px;
+}
+.mainimage{
+	float:right;
+	margin:10px;
+	width:500px;
+	height:300px;
+	clear:both;
+}
+
+/* About us styles */
+#house_image {
+	float:right;
+	width:500px;
+	height:300px;
+}
+
+
+/* Find us styles */
+#body button {
+	display:block;
+	padding:5px;
+}
+#contact {
+	float:right;
+	margin:20px;
+}
+
+/* Rooms styles */
+#body ul {
+	list-style-type: square;
+	padding-left:40px;
+}
+
+.roomimage {
+	float:right;
+	width:500px;
+	height:300px;
+	margin:10px;
+}
